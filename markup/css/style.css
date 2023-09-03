@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Graphik LCG';
     src: url(../fonts/GraphikLCG-Regular.woff2) format('woff2'),
-    url(../fonts/GraphikLCG-Regular.woff) format('woff');
+        url(../fonts/GraphikLCG-Regular.woff) format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -66,18 +66,18 @@ a:hover {
 }
 
 .header-menu {
-    display: flex; 
+    display: flex;
 }
 
-.menu { 
+.menu {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     padding-left: 25px;
 }
 
 .menu>li {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-self: center;
     list-style: none;
 }
@@ -112,8 +112,10 @@ a:hover {
 
 .btn:hover {
     color: #fff;
-    background-color: #FF6336;;
-    border: 1px solid #FF6336;;
+    background-color: #FF6336;
+    ;
+    border: 1px solid #FF6336;
+    ;
 }
 
 .hero-section {
@@ -331,6 +333,7 @@ h2 {
     font-size: 30px;
     line-height: 35px;
 }
+
 .card-txt p {
     font-size: 20px;
     line-height: 25px;
@@ -374,7 +377,7 @@ h2 {
 
 .men-text span {
     padding-bottom: 10px;
-    
+
 }
 
 .men-text a {
@@ -417,7 +420,7 @@ h2 {
     line-height: 40px;
     padding-left: 70px;
     width: 65%;
-} 
+}
 
 .integration {
     margin-top: 170px;
@@ -428,11 +431,15 @@ h2 {
     text-align: center;
 }
 
-.integration, 
+.integration>img {
+    padding-bottom: 32px;
+}
+
+.integration,
 h2,
 p {
     align-self: center;
-} 
+}
 
 .integration h2 {
     width: 790px;
@@ -467,7 +474,7 @@ p {
 }
 
 .try-section {
-    background-color: #FF9C7D;;
+    background-color: #FF9C7D;
 }
 
 .try {
@@ -496,7 +503,7 @@ p {
     font-weight: 600;
     color: #fff;
     background-color: #000;
-    padding: 20px 40px ;
+    padding: 20px 40px;
     border: 1px solid transparent;
     transition: all .8s;
 }
@@ -516,8 +523,12 @@ footer {
     display: flex;
     justify-content: flex-start;
     padding-top: 100px;
-    padding-bottom: 400px;
-    
+    padding-bottom: 95px;
+    border-bottom: 1px solid #000;
+}
+
+.case {
+    width: 30%;
 }
 
 .case h3 {
@@ -525,17 +536,35 @@ footer {
     font-size: 40px;
 }
 
+.case>a>img {
+    width: 80px;
+    padding: 30px 0;
+}
+
+.case a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+.case p {
+    padding-bottom: 25px;
+}
+
 .footer__menu {
     display: flex;
     margin-left: 100px;
+    width: 80%;
 }
 
 .col {
-    text-align:left;
+    text-align: left;
     margin-left: 40px;
 }
 
 h5 {
+    text-align: left;
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 21px;
@@ -544,7 +573,7 @@ h5 {
 .col-items li {
     list-style: none;
     vertical-align: top;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .col-items li>a {
@@ -552,15 +581,39 @@ h5 {
     color: #000;
     font-family: Graphik LC TT;
     font-size: 15px;
+    line-height: 15px;
     font-weight: 400;
     transition: all 1s;
-}
-
-.col:nth-child(2) {
-    padding-top: 60px;
 }
 
 .col-items li>a:hover {
     color: #FF6336;
     text-decoration: underline;
+}
+
+.copyright-section {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.copyright-logo {
+    display: flex;
+    align-items: center;
+}
+
+.copyright-logo p {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-left: 15px;
+}
+
+.copyright {
+    align-items: center;
+    padding-right: 70px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
 }
